@@ -5,6 +5,12 @@ import java.awt.event.KeyListener;
 
 public class Main {
     public static void main(String[] args) {
+
+        
+
+
+        // Create the stage layout
+
         int[][] stageLayout = {
             {1, 1, 1, 1, 1},
             {1, 1, 1, 1, 1},
@@ -18,8 +24,9 @@ public class Main {
 
     private static void createAndShowGUI(int[][] stageLayout) {
         JFrame frame = new JFrame("Main Stage");
+    
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        Color sky = new Color(155, 209, 242); // Sky Blue
+        
 
         // Create the stage panel and set the layout manager
         JPanel stagePanel = new JPanel();
@@ -82,8 +89,8 @@ public class Main {
 class Sprite extends JPanel {
     private int x;
     private int y;
-    private static final int SIZE = 30;
-    private static final int MOVE_AMOUNT = 30;
+    private static final int SIZE = 3;
+    private static final int MOVE_AMOUNT = 3;
 
     public Sprite() {
         this.x = 0;
