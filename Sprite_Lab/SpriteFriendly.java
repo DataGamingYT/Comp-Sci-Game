@@ -90,8 +90,8 @@ void setup() {
   
   // Create boxes and add them to the boxes array
   boxes = new ArrayList<Box>();
-  boxes.add(new Box(500, 500, 1920,1080, color(124, 124, 124)));  //  box 1
-  boxes.add(new Box(600, 400, 150, 150, color(0, 255, 0)));  //  box 2
+  boxes.add(new Box(200, 300, 100, 100, color(124, 124, 124)));  // Example box 1
+  boxes.add(new Box(600, 400, 150, 150, color(0, 255, 0)));  // Example box 2
 }
 
 void draw() {
